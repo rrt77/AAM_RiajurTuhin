@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AAM-Login Test suite]">
+  <test name="Verify Login Functionality(failed)">
+    <classes>
+      <class name="Test.AAMLoginTest">
+        <methods>
+          <include name="aamLogingTest1"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="aamLogingTest2"/>
+        </methods>
+      </class> <!-- Test.AAMLoginTest -->
+    </classes>
+  </test> <!-- Verify Login Functionality(failed) -->
+</suite> <!-- Failed suite [AAM-Login Test suite] -->

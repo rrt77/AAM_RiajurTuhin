@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AAM-Login Test suite">
+  <test name="Verify Login Functionality">
+    <classes>
+      <class name="Test.AAMLoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
